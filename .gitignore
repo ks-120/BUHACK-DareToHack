@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+hkbu-app/node_modules/
+
+# Expo build artifacts
+hkbu-app/.expo/
+hkbu-app/dist/
+hkbu-app/web-build/
+hkbu-app/expo-env.d.ts
+
+# Native build artifacts
+hkbu-app/.kotlin/
+hkbu-app/ios/
+hkbu-app/android/
+
+# Environment files
+.env
+.env.local
+hkbu-app/.env
+hkbu-app/.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
